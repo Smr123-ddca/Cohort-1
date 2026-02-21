@@ -123,3 +123,9 @@
 // let a = "Arko" // ReferenceError: Cannot access 'a' before initialization
 
 // const a = 10
+// var name = "Arko"
+
+// {
+// console.log(name) //temporal dead zone
+// let name = "Arko"
+// }
