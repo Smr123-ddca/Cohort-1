@@ -4,6 +4,7 @@
 
 // var name  //declaration
 // name="Akanksha"  //Initialization
+//name=11  //reassignment
 // console.log(name)     //should not be used
 
 
@@ -30,12 +31,21 @@
         // console.log(b)
 
         //functional scope
+        
+        // var x=10
+        // function name(){
+        //         var y=11;
+        //         console.log(x)
+        //         console.log(y)
+        // }
+        // // console.log(y)    //error
+        // name()
 
         // var name="Akanksha"
         // if(true){
         //     var age=20;
         // }
-        // console.log(age)
+        // console.log(age)        //data leak or memory leak
 
 
         // function test(){
@@ -48,6 +58,7 @@
 
 
 //let properties   
+
 // 1)No redeclaration
 // let b="Harry"
 // let b=65  //error
@@ -58,7 +69,18 @@
 // b="ITER BBSR"
 // console.log(b)
 
+//3)let globally and block scope
+// let x=10
+
+//inside local scope
+// {
+//         let x=12
+//         console.log(x)
+// }
+// console.log(x)
+
 //const can neither be updated nor redeclared
+//global and blocked scope
 // const author="Harry"
 // let author=5    //error
 
@@ -79,13 +101,12 @@
 // 2)block scope
 
 
-//Hoisting
 // {
 //     let name="Akanksha"
 //     console.log(name)
 //     {
 //         console.log(name)
-//         // let name="Saswat"
+//         // let name="Saswat"   //error bcs name has both local scope and global scope----lines above this becomes dead zone
 //         console.log(name)
 //     }
 // }
