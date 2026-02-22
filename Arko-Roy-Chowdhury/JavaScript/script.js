@@ -21,9 +21,9 @@
 //     let x = 10; // declaration + initialization
 //     console.log(x)
 //     {
-//     //Temporal Dead Zone (TDZ) - the time between the block start and variable declaration where the variable cannot be accessed
-//     //TDZ exists for let and const variables
-//     //TDZ exists because we redeclare the variable x in the inner block and we want to prevent accessing it before initialization
+    //Temporal Dead Zone (TDZ) - the time between the block start and variable declaration where the variable cannot be accessed
+    //TDZ exists for let and const variables
+    //TDZ exists because we redeclare the variable x in the inner block and we want to prevent accessing it before initialization
 
 
 
