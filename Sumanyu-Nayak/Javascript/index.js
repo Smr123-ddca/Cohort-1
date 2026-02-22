@@ -15,14 +15,34 @@
 // x=11                //Variable re-assignment
 
 
-// Variable Scope 
+// // Variable Scope 
+// {
+//     //Var is global scope and function scope and can be re-declared and re-assigned.
+//     var x=10
+//     console.log(x);
+//     //Let and Const are block scope and cannot be re-declared but can be re-assigned.
+//     let y=20
+//     console.log(y);
+// }
+// console.log(x);
+// console.log(y);
+
+// var x //Variable declaration
+// x= 10//Variable initialization
+// x=11//Variable re-assignment
+// function name() {
+//     var y=11
+//     console.log(x);
+//     console.log(y);
+// }
+// name()
 {
-    //Var is global scope and function scope and can be re-declared and re-assigned.
-    var x=10
+    let x=10
     console.log(x);
-    //Let and Const are block scope and cannot be re-declared but can be re-assigned.
-    let y=20
-    console.log(y);
+    {
+        console.log(x);
+        let x=11
+    }
+    console.log(x);
+
 }
-console.log(x);
-console.log(y);
