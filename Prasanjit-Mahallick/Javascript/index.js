@@ -72,12 +72,13 @@
 //     let name = "Prasanjit"
 // }
 
-{
-    let name = "Prasanjit"
-    console.log(name)
-    {
-        console.log(name);
-        let name = "PJ"
-        console.log(name) 
-    }
-}
+// {
+//     let name = "Prasanjit"
+//     console.log(name)
+//     {
+//         console.log(name);
+//         let name = "PJ"
+//         console.log(name) 
+//     }
+// }
+
