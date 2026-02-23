@@ -208,7 +208,7 @@
 // async function asy(){
 //     console.log("Start")
 
-//     const data = await fetch("https://jsonplaceholder.typicode.com/todos/1")
+//     const data = fetch("https://jsonplaceholder.typicode.com/todos/1")
 //     .then((val) => { //resolved
 //         console.log("Success")
 //         console.log(val)
@@ -222,10 +222,12 @@
 //     })
 //     ;
 
-
+//     console.log(data)
 
 //     console.log("End")
 // }
+
+// asy()
 
 // function name(){
 //     console.log(arguments)
