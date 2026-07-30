@@ -1,6 +1,8 @@
+//connection.js file
 const {client,query,Pool} = require('pg')
 
 const pool = new Pool({
+    max:20,
     idleTimeoutMillis:30000,
 })
 
